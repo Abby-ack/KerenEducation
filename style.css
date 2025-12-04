@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* Responsive Navbar */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+header {
+  background: url("school.jpg") center/cover no-repeat;
+  padding: 80px;
+  color: white;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.teachers-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.teacher img {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+img{
+    width: 600px;
+    height: 500px;
+}
